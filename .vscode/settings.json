@@ -1,0 +1,10 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "tslint.enable": true,
+    "findUnusedExports.detectCircularImports": true,
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "explicit"
+    },
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+}

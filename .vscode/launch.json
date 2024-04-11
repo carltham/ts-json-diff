@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "command": "npm i",
+            "name": "Install",
+            "request": "launch",
+            "type": "node-terminal"
+        },       
+        {
+            "command": "npm start",
+            "name": "Start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run test",
+            "name": "Test",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run test:coverage",
+            "name": "Coverage",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    ]
+}
